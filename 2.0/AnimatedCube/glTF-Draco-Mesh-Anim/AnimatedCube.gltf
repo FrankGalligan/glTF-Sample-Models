@@ -1,0 +1,283 @@
+{
+  "accessors": [
+    {
+      "componentType": 5123,
+      "count": 36,
+      "max": [
+        35
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "componentType": 5126,
+      "count": 32,
+      "max": [
+        1,
+        1,
+        1
+      ],
+      "min": [
+        -1,
+        -1,
+        -1
+      ],
+      "type": "VEC3"
+    },
+    {
+      "componentType": 5126,
+      "count": 32,
+      "max": [
+        1,
+        1,
+        1.000001
+      ],
+      "min": [
+        -1,
+        -1,
+        -1
+      ],
+      "type": "VEC3"
+    },
+    {
+      "componentType": 5126,
+      "count": 32,
+      "max": [
+        1,
+        0,
+        0,
+        1
+      ],
+      "min": [
+        0,
+        0,
+        -1,
+        -1
+      ],
+      "type": "VEC4"
+    },
+    {
+      "componentType": 5126,
+      "count": 32,
+      "max": [
+        1,
+        1
+      ],
+      "min": [
+        -1,
+        -1
+      ],
+      "type": "VEC2"
+    },
+    {
+      "componentType": 5126,
+      "count": 3,
+      "max": [
+        2
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "componentType": 5126,
+      "count": 3,
+      "max": [
+        0,
+        1,
+        0,
+        1
+      ],
+      "min": [
+        0,
+        -8.742278e-8,
+        0,
+        -1
+      ],
+      "type": "VEC4"
+    }
+  ],
+  "animations": [
+    {
+      "channels": [
+        {
+          "sampler": 0,
+          "target": {
+            "node": 0,
+            "path": "rotation"
+          }
+        }
+      ],
+      "name": "animation_AnimatedCube",
+      "samplers": [
+        {
+          "input": 5,
+          "interpolation": "LINEAR",
+          "output": 6
+        }
+      ]
+    }
+  ],
+  "asset": {
+    "generator": "VKTS glTF 2.0 exporter",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 320
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 320,
+      "byteLength": 127
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 448,
+      "uri": "AnimatedCube.bin"
+    }
+  ],
+  "images": [
+    {
+      "name": "AnimatedCube_BaseColor",
+      "uri": "AnimatedCube_BaseColor.png"
+    },
+    {
+      "name": "AnimatedCube_MetallicRoughness",
+      "uri": "AnimatedCube_MetallicRoughness.png"
+    }
+  ],
+  "materials": [
+    {
+      "name": "AnimatedCube",
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0,
+          "texCoord": 0
+        },
+        "metallicRoughnessTexture": {
+          "index": 1,
+          "texCoord": 0
+        },
+        "baseColorFactor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "metallicFactor": 1,
+        "roughnessFactor": 1
+      },
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "alphaMode": "OPAQUE",
+      "doubleSided": false
+    }
+  ],
+  "meshes": [
+    {
+      "name": "AnimatedCube",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 2,
+            "TANGENT": 3,
+            "TEXCOORD_0": 4
+          },
+          "indices": 0,
+          "material": 0,
+          "mode": 4,
+          "extensions": {
+            "KHR_draco_mesh_compression": {
+              "bufferView": 0,
+              "attributes": {
+                "NORMAL": 0,
+                "POSITION": 1,
+                "TANGENT": 2,
+                "TEXCOORD_0": 3
+              }
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "name": "AnimatedCube",
+      "rotation": [
+        0,
+        -1,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "samplers": [
+    {
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    }
+  ],
+  "extensionsRequired": [
+    "KHR_draco_mesh_compression",
+    "Draco_animation_compression"
+  ],
+  "extensionsUsed": [
+    "KHR_draco_mesh_compression",
+    "Draco_animation_compression"
+  ],
+  "extensions": {
+    "Draco_animation_compression": [
+      {
+        "input": 5,
+        "outputs": [
+          6
+        ],
+        "attributesId": [
+          1
+        ],
+        "bufferView": 1
+      }
+    ]
+  }
+}
